@@ -1,0 +1,108 @@
+body {
+  font-family: Fira Code Medium;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+nav {
+  background-color: #333;
+  padding: 1em;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  margin: 0 1em;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.2em;
+}
+
+main {
+  padding: 2em;
+}
+
+.wallpapers {
+  text-align: center;
+}
+
+.wallpaper-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1em;
+  margin-top: 2em;
+}
+
+.card {
+  position: relative;
+  width: 100%;
+  padding-top: 75%; /* Maintains a consistent aspect ratio */
+  background-color: white;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.card img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensures the image covers the entire card */
+  object-position: center; /* Centers the image */
+}
+
+#about {
+  margin-top: 3em;
+  text-align: center;
+}
+
+header {
+  background-color: #f8f9fa; /* Light background for visibility */
+  padding: 20px; /* Padding around the header content */
+  text-align: center;
+  margin-top: 56px; /* Offset for navbar height */
+}
+
+/* Resetting default list styling */
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex; /* Use flexbox for alignment */
+}
+
+/* Styling for list items */
+nav li {
+  margin: 0;
+}
+
+/* Aligns the last item to the right */
+nav .right {
+  margin-left: auto; /* Pushes the item to the far right */
+}
+
+/* Basic styling for links */
+nav a {
+  text-decoration: none;
+  color: black;
+  padding: 14px 20px;
+  display: block;
+}
+
+footer {
+  padding: 20px; /* Adjust this value to increase or decrease height */
+  text-align: center; /* Center the text inside the footer */
+}
+
