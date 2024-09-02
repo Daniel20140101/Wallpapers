@@ -19,7 +19,7 @@ nav ul {
 }
 
 nav ul li {
-  margin: 0 1em;
+  margin: 0 2em; /* Adjust margin for spacing between links */
 }
 
 nav ul li a {
@@ -68,41 +68,9 @@ main {
   text-align: center;
 }
 
-header {
-  background-color: #f8f9fa; /* Light background for visibility */
-  padding: 20px; /* Padding around the header content */
-  text-align: center;
-  margin-top: 56px; /* Offset for navbar height */
-}
-
-/* Resetting default list styling */
-nav ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  display: flex; /* Use flexbox for alignment */
-}
-
-/* Styling for list items */
-nav li {
-  margin: 0;
-}
-
-/* Aligns the last item to the right */
-nav .right {
-  margin-left: auto; /* Pushes the item to the far right */
-}
-
-/* Basic styling for links */
-nav a {
-  text-decoration: none;
-  color: black;
-  padding: 14px 20px;
-  display: block;
-}
-
 footer {
-  padding: 20px; /* Adjust this value to increase or decrease height */
-  text-align: center; /* Center the text inside the footer */
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  text-align: center;
 }
-
